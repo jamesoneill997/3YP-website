@@ -1,0 +1,120 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: #1a1a1a;	
+}
+
+a:hover{
+	color: #66ff00;
+	transition-timing-function: ease;
+	transition-delay: .2s;
+
+}
+
+li{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+p{
+	color: white;
+	text-align: center;
+	font-size: 130%;
+
+}
+
+h1{
+	color: white;
+}
+.nav-bar{
+	background-color: #1a1a1a;
+	height: 15%;
+	width: 100%;
+	padding-bottom: 1%;
+	text-align: center;
+	position: fixed;
+	overflow: hidden;
+
+}
+
+.nav-list{ 
+	display: inline-flex; 
+	padding-top: 2%; 
+	margin: auto;
+	padding-left: 0;
+	width: 100%;
+	justify-content: center;
+
+
+}
+
+.blog, .images{
+	color: white;
+	font-size: 200%;
+	text-decoration: none;
+	padding-top: 30%;
+	display: flex;
+	flex-direction: column;
+
+}
+.get-reg{
+	width: 70%;
+	height: auto;
+}
+
+.title-image{
+	padding-top: 1%;
+	width: 55%;
+}	
+
+.cover-img{
+	width: 100%
+}
+
+.anpr{
+	width: 90%;
+	padding:5%;
+
+}
+
+.upload-section{
+	background-color: lightgray;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-style: solid;
+	border-width: 10%;
+	border-color: black;
+	height: 20%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 10%;
+
+}
+
+.upload-button{
+	height: 50%;
+
+}
+
+.upload-file{
+	justify-content: center;
+}
+
+.display{
+
+	margin-bottom: 2%;
+}
+
+.display-results{
+	text-align: center;
+}
+
+.slide{
+	text-align: center;
+	margin-top: 5%;
+
+}
